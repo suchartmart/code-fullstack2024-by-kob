@@ -75,6 +75,15 @@ function Sidebar() {
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <li class="nav-header">Menu</li>
                         <li class="nav-item">
+                            <Link to="/dashboard" class="nav-link">
+                                <i class="nav-icon fa fa-columns"></i>
+                                <p>
+                                    DashBoard
+                               
+                                </p>
+                            </Link>
+                        </li>
+                        <li class="nav-item">
                             <Link to="/product" class="nav-link">
                                 <i class="nav-icon fa fa-box"></i>
                                 <p>
@@ -84,10 +93,10 @@ function Sidebar() {
                             </Link>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/gallery.html" class="nav-link">
+                            <a href="/billSale" class="nav-link">
                                 <i class="nav-icon far fa-image"></i>
                                 <p>
-                                    Gallery
+                                    รายงานยอดขาย
                                 </p>
                             </a>
                         </li>

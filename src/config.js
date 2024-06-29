@@ -1,5 +1,5 @@
 const config = {
-    apiPath: 'http://localhost:3001',
+    apiPath: 'http://13.250.3.198:3001',
     headers: () => {
         return {
             headers: {
